@@ -74,6 +74,7 @@ del ouch.ogg
 copy "%opath%\files\ouch.ogg" "%CD%" >NUL
 pause
 echo STARTING GYATTDAEMON HACKED ROBLOX PLEASE WAIT!
+cd %path%
 start RobloxPlayerBeta.exe
 pause
 :trolled
