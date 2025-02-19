@@ -72,6 +72,11 @@ del action_jump.mp3
 copy "%opath%\files\action_jump.mp3" "%CD%" >NUL
 del ouch.ogg
 copy "%opath%\files\ouch.ogg" "%CD%" >NUL
+cd ..\textures\Cursors\KeyboardMouse
+del ArrowCursor.png
+copy "%opath%\files\ArrowCursor.png" "%CD%" >NUL
+del ArrowFarCursor.png
+copy "%opath%\files\ArrowFarCursor.png" "%CD%" >NUL
 pause
 echo STARTING GYATTDAEMON HACKED ROBLOX PLEASE WAIT!
 cd %path%
