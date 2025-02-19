@@ -16,6 +16,12 @@ if not exist %CD%\files\ClientAppSettings.json (
 if not exist %CD%\files\ouch.ogg (
     set safety=1
 )
+if not exist %CD%\files\ArrowCursor.png (
+    set safety=1
+)
+if not exist %CD%\files\ArrowFarCursor.png (
+    set safety=1
+)
 if %safety%==1 (
     echo ERROR MISSING FILES!
     timeout /t 5 /nobreak >NUL
