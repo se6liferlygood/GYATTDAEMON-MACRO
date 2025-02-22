@@ -49,7 +49,7 @@ set root_dir=%localappdata%\Roblox\Versions
 set filename="RobloxPlayerBeta.exe"
 set nice=0
 for /d %%d in (%root_dir%\*) do (
-    if exist "%%d\%filename%" (
+    if exist "%%d\%filename%" if exist "%%d\content\" (
         cd %%d
         set path=%%d
         set nice=1
