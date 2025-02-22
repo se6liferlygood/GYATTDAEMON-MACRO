@@ -1,3 +1,4 @@
+::this is a troll (not real lmao)
 @echo off
 title GYATTDAEMON!
 set safety=0
